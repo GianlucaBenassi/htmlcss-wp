@@ -79,7 +79,7 @@ main .container {
 }
 
 .main-top {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .left-column,
@@ -98,6 +98,18 @@ main .container {
     float: left;
 }
 
+.img-dimension {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.para-title {
+    font-weight: 100;
+    font-size: 16px;
+    margin: 10px 0;
+}
 
 /* ***** footer ***** */
 
