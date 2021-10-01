@@ -26,6 +26,24 @@ body {
     color: grey;
 }
 
+/* BONUS */
+
+.layer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.layer-height.layer::before {
+    height: 200px;
+}
+
 /* ***** header top ***** */
 
 #logo {
@@ -72,6 +90,10 @@ nav li a {
     width: 45%;
 }
 
+.header-bottom, .header-bottom * {
+    position: relative; /* BONUS */
+}
+
 /* ***** main ***** */
 
 main .container {
@@ -96,6 +118,8 @@ main .container {
 .main-content,
 .right-column {
     float: left;
+    
+    position: relative; /* BONUS */
 }
 
 .img-dimension {
