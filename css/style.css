@@ -118,6 +118,15 @@ footer .container {
     margin-top: 10px;
 }
 
+footer p {
+    text-align: center;
+    line-height: 50px;
+}
+
+footer .heart {
+    color: red;
+    font-size: 20px;
+}
 
 /* +++++ debug +++++ */
 
