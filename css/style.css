@@ -1,0 +1,108 @@
+/* ***** commons ***** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 70%;
+    margin: auto;    
+}
+
+body {
+    padding: 20px 0;
+}
+
+
+/* ***** header top ***** */
+
+.header-top {
+    height: 100px;
+}
+
+
+/* ***** header bottom ***** */
+
+.header-bottom {
+ margin: 20px 0;
+}
+
+
+/* ***** main ***** */
+
+main .container {
+    padding-bottom: 20px;
+}
+
+.main-top {
+    margin-bottom: 20px;
+}
+
+.left-column,
+.right-column {
+    width: 20%;
+}
+
+.main-content {
+    margin: 0 2%;
+    width: 56%;
+}
+
+.left-column,
+.main-content,
+.right-column {
+    float: left;
+}
+
+
+/* ***** footer ***** */
+
+footer .container {
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/* +++++ debug +++++ */
+
+.debug .header-top {
+    background-color: #E579E6;
+}
+
+.debug .header-bottom {
+    background-color: #E1D67A;
+    height: 350px;
+}
+
+main .container.debug {
+    background-color: #0086FF;
+}
+
+.debug .main-top {
+    height: 75px;
+}
+
+.debug .left-column,
+.debug .main-content,
+.debug .right-column {
+    height: 400px;
+}
+
+.debug .main-top,
+.debug .left-column,
+.debug .main-content,
+.debug .right-column {
+    background-color: #abcfe7;
+}
+
+footer .debug.container {
+    background-color: #8801fe;
+}
