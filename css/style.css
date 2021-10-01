@@ -52,13 +52,21 @@ nav li a {
 
 .header-bottom {
     margin: 20px 0;
-    height: 450px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    padding: 300px 0 30px 20px;
+    color: white;
 }
 
+.header-bottom h2 {
+    width: 50%;
+}
+
+.header-bottom p {
+    width: 45%;
+}
 
 /* ***** main ***** */
 
