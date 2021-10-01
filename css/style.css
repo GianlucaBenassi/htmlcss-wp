@@ -47,7 +47,12 @@ nav li {
 /* ***** header bottom ***** */
 
 .header-bottom {
- margin: 20px 0;
+    margin: 20px 0;
+    height: 450px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 
@@ -94,7 +99,6 @@ footer .container {
 
 .debug .header-bottom {
     background-color: #E1D67A;
-    height: 350px;
 }
 
 main .container.debug {
